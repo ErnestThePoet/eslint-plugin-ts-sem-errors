@@ -240,7 +240,7 @@ const otherInvalidStatements: InvalidTestCaseWithOptionalErr[] = [
         messageId: "typescriptError" as const,
         data: {
           errorMessage:
-            "Type '() => Promise<string | null>' is not assignable to type '() => Promise<string>'.",
+            "Type '() => Promise<string | null>' is not assignable to type '() => Promise<string>'. ts(2322)",
         },
       },
     ],
